@@ -63,4 +63,7 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  config.hosts << 'markgoho-rails-7-with-angular-gxq5vrxv3v66-3000.githubpreview.dev'
+  config.hosts << 'markgoho-angular-with-rails-7-wv79q5vqh9xjq-4200.githubpreview.dev'
 end
